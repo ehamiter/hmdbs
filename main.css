@@ -240,6 +240,9 @@ blockquote p {
   }
   #first-section {
     margin-top: 5em !important;
+   }
+  #initial-section {
+    margin-top: 5em !important;
   }
 }
 
@@ -253,6 +256,10 @@ blockquote p {
     #first-section {
       padding-top: 5em !important;
     }
+    #initial-section {
+      padding-top: 5em !important;
+    }
+
     .hero-head {
         height: 7rem;
         background-color: white !important;
@@ -272,6 +279,10 @@ blockquote p {
       #first-section {
         padding-top: 3em !important;
       }
+      #initial-section {
+        margin-top: 3em !important;
+      }
+
     }
     @media screen and (max-width: 800px) 
     {
