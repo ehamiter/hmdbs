@@ -94,18 +94,9 @@ body {
     /* font-size: 1.25em */
 }
 
-/* #book-banner {
-    padding-top: 8em;
-} */
-
-/* #banner-logo {
-   padding: 3em 10em 0em 10em;
-} */
-
 
 #navbarMenuHeroA {
   padding-top: 2em;
-  /* background-color: white !important; */
 }
 
 .navbar-end{
@@ -134,7 +125,6 @@ body {
 }
 
 
-
 p {
   margin-bottom: 25px
 }
@@ -153,10 +143,6 @@ p {
   display: block;
   visibility: hidden;
 }
-
-/* .modal-header:before {
-
-} */
 
 .resume-btn {
     margin: 30px;
@@ -258,49 +244,52 @@ blockquote p {
 }
 
 /* Safari is the worst */
-@media not all and (min-resolution:.001dpcm) { @media {
-  .top-break {
-    display: none;
-  }
-  #first-section {
-    padding-top: 5em !important;
-  }
-  .hero-head {
-      height: 7rem;
-      background-color: white !important;
-      background-image: url("images/logo_small_2.jpg");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-  }
-  @media screen and (min-width: 1300px) 
-  {
-    
-    .hero-head {
-      height: 7rem;
-      background-color: white !important;
-      background-image: none;
-    }
+@media not all and (min-resolution:.001dpcm) {
 
+ @media {
+    .top-break {
+      display: none;
+    }
     #first-section {
-      padding-top: 3em !important;
+      padding-top: 5em !important;
+    }
+    .hero-head {
+        height: 7rem;
+        background-color: white !important;
+        background-image: url("images/logo_small_2.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width: 1300px) 
+    {
+      
+      .hero-head {
+        height: 7rem;
+        background-color: white !important;
+        background-image: none;
+      }
+
+      #first-section {
+        padding-top: 3em !important;
+      }
+    }
+    @media screen and (max-width: 800px) 
+    {
+      body { 
+        margin-top: -13rem;
+      }
+      .hero-body{
+        display: none !important;
+      }
+    }
+    @media screen and (max-width: 700px) 
+    {
+      body { 
+        margin-top: -13rem;
+      }
     }
   }
-  @media screen and (max-width: 800px) 
-  {
-    body { 
-      margin-top: -13rem;
-    }
-    .hero-body{
-      display: none !important;
-    }
-  }
-  @media screen and (max-width: 700px) 
-  {
-    body { 
-      margin-top: -13rem;
-    }
-  }
-}}
+}
 
 @media screen and (max-width: 575px) 
 {
@@ -314,5 +303,15 @@ blockquote p {
 {
   .contact {
     max-width: 75%;
+  }
+}
+
+.mobileShow {display: none;} 
+
+/* Smartphone Portrait and Landscape */ 
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .mobileShow {
+    display: inline;
   }
 }
