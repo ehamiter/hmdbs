@@ -53,11 +53,21 @@ body {
 
 .section-header {
     color: #0a4386;
-    padding: 5px;
-    margin-top: 2em !important;
+    /*padding: 5px;*/
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    font-family: 'Fjalla One';
+    font-size: 3rem;
+  }
+
+
+.section-sub-header {
+    color: #0a4386;
+    /*padding: 5px;*/
+    /*margin-top: 2em !important;*/
     margin-bottom: 2em !important;
     font-family: 'Fjalla One';
-    font-size: 2.5em;
+    font-size: 2rem;
   }
 
 
@@ -146,6 +156,12 @@ p {
 
 .resume-btn {
     margin: 30px;
+}
+
+.pic {
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 3px 11px -2px #000000; 
+  box-shadow: 2px 3px 11px -2px #000000;
 }
 
 .card {
@@ -242,7 +258,7 @@ blockquote p {
     margin-top: 5em !important;
    }
   #initial-section {
-    margin-top: 5em !important;
+    margin-top: 1em !important;
   }
 }
 
@@ -257,7 +273,7 @@ blockquote p {
       padding-top: 5em !important;
     }
     #initial-section {
-      padding-top: 5em !important;
+      padding-top: 1em !important;
     }
 
     .hero-head {
@@ -280,7 +296,7 @@ blockquote p {
         padding-top: 3em !important;
       }
       #initial-section {
-        margin-top: 3em !important;
+        margin-top: 1em !important;
       }
 
     }
